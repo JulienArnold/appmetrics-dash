@@ -12,13 +12,22 @@
 <body>
     <!--<h1>Application Metrics Dashboard for Node.js (Tech Preview)</h1>-->
     <!-- load the d3.js library -->
+<<<<<<< HEAD
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
+=======
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>    
+    <script src="https://code.jquery.com/jquery.js"></script>
+>>>>>>> 71af9d529d921fd1826f2cc5a1a7c3dda5ff63e4
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <div class="headerDiv"><span class="rightHeader"></span><span class="leftHeader"></span></div>
 
     <div class="container-fluid">
         <div class="row">
+<<<<<<< HEAD
             <div class="col-md-2" id="cpuDiv"></div>
             <div class="col-md-2" id="memDiv"></div>
             <div class="col-md-2" id="gcDiv"></div>
@@ -29,7 +38,19 @@
         <div class="row">
             <div class="col-md-6" id="httpResponseDiv"></div>
             <div class="col-md-3" id="httpTop5Div"></div>
+=======
+            <div class="col-md-6" id="httpDiv1"></div>
+            <div class="col-md-3" id="httpDiv2"></div>
+            <div class="col-md-3" id="httpDiv3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2" id="cpuDiv1"></div>
+            <div class="col-md-2" id="memDiv1"></div>
+            <div class="col-md-2" id="gcDiv"></div>
+>>>>>>> 71af9d529d921fd1826f2cc5a1a7c3dda5ff63e4
             <div class="col-md-3" id="eventLoopDiv"></div>
+            <div class="col-md-3" id="envDiv"></div>
         </div>
         <div class="row">
             <div class="col-md-6" id="probeEventsDiv"></div>
@@ -37,7 +58,11 @@
         </div>
         <div class="row">
             <div class="col-md-12" id="nodeReportButtonDiv"></div>
+<<<<<<< HEAD
         </div>
+=======
+        </div>      
+>>>>>>> 71af9d529d921fd1826f2cc5a1a7c3dda5ff63e4
     </div>
 
 <script>
@@ -76,6 +101,7 @@
         }
     }
 </script>
+<script type="text/javascript" src="js/header.js"></script>
 <script type="text/javascript" src="js/nodeReport.js"></script>
 <script type="text/javascript" src="js/envTable.js"></script>
 <script type="text/javascript" src="js/cpuChart.js"></script>
