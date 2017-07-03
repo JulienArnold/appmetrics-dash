@@ -95,6 +95,17 @@
     tallerGraphHeight = canvasHeight - margin.top - margin.shortBottom,
     graphHeight = canvasHeight - margin.top - margin.bottom;
 
+    // IE
+    if (navigator.browserLanguage) {
+      console.log(navigator.browserLanguage);
+      // en-US
+    }
+    // All other vendors
+    else if (navigator.language) {
+      console.log(navigator.language);
+      // en-US
+    }
+
     var myurl = location.host;
     var socket = io.connect(myurl);
     socket.emit('connected');
