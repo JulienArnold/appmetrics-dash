@@ -5,3 +5,6 @@ public
 node_modules 
 >>>>>>> 71af9d529d921fd1826f2cc5a1a7c3dda5ff63e4
 test/apps/lb-3
+public/bootstrap-3.3.7-dist
+public/d3
+public/jquery
